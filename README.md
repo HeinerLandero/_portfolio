@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React Portfolio with Bootstrap, Sass, Swiper, and Framer Motion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a portfolio project showcasing various projects built with React. The portfolio utilizes Bootstrap for styling, Sass for enhanced CSS functionality, and additional libraries such as Swiper for sliders and Framer Motion for animations.
+>[!NOTE]
+>Prerequisites:
 
-## Available Scripts
+- Node.js: Ensure you have Node.js installed on your system. You can download it from the official Node.js website.
+- React: This project is built with React, so you'll need to have knowledge of React and its ecosystem.
 
-In the project directory, you can run:
+Setup:
 
-### `npm start`
+1. Clone this repository to your local machine:
+```
+   git clone https://github.com/HeinerLandero/_portfolio.git
+```
+2. Install project dependencies using npm:
+  ```bash
+   cd your_repository
+   npm install
+  ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Development:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To start the development server, run the following command:
+```
+npm start
+```
+This will start the development server and open the portfolio in your default web browser. Any changes you make to the source files will be hot-reloaded, allowing for a smooth development experience.
 
-### `npm test`
+Building for Production:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To build the project for production, run:
+```
+npm run build
+```
+This will generate a production-ready build of your portfolio in the build directory, which can then be deployed to a web server.
 
-### `npm run build`
+Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Bootstrap: Utilizes Bootstrap for responsive styling and layout.
+- Sass: Enhances CSS functionality with Sass for easier maintenance and organization.
+- Swiper: Incorporates Swiper for carousel sliders to showcase project images.
+- Framer Motion: Integrates Framer Motion for animations to enhance the user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+>[!TIP]
+>Contributing:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you'd like to contribute to this project, please follow these steps:
 
-### `npm run eject`
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/new-feature).
+3. Make your changes and commit (git commit -am 'Add new feature').
+4. Push the branch (git push origin feature/new-feature).
+5. Create a new pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+License:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
