@@ -1,0 +1,20 @@
+/*Abstracts*/
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+/**/
+@use './scss/base/base';
+@use './scss/base/resets';
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.layout{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
