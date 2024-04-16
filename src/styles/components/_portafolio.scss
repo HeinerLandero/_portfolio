@@ -1,5 +1,27 @@
-.card{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+.container_swiper{
+    width: 90%;
+    margin: 60px auto 30px;
+    .title_porfolio{
+        color: var(--blue-turk);
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        font-weight: lighter;
+    }
+    .card{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        .card-title,a{
+            color: var(--white);
+            text-decoration: none;
+        }
+        .card-title{
+            margin: 0;
+        }
+        .card-text{
+            color: var(--white);
+            margin-top: 20px;
+        }
+    }
 }

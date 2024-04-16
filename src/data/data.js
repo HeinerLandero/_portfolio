@@ -1,8 +1,3 @@
-// import {imagen1} from '../images/desarrollo.jpeg';
-// import {imagen2} from '../images/design.jpeg';
-// import {imagen3} from '../images/seo.jpg';
-// import {imagen4} from '../images/soporte.jpg';
-
 export const proyectos = [
     {
         'id':'proyect01',

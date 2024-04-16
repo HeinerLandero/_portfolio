@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 
 export const Portafolio = ({limite}) => {
   return (
-    <div className='container_main mt-4 row'>
-      <h1 className='title_porfolio mt-4'>Proyectos</h1>
+    <div className='container container_swiper'>
+      <h2 className='title_porfolio mt-4 mb-4'>Proyectos</h2>
       <Swiper spaceBetween={80}
-              slidesPerView={limite}
+              slidesPerView={2}
               centeredSlides={true}
               cssMode={true}
               navigation={true}

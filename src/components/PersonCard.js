@@ -2,8 +2,8 @@ import { useState } from "react";
 import { MagicCard } from "react-magic-motion";
 import "react-magic-motion/card.css";
 import imgPerson from '../images/default.webp';
-import iconClose from '../images/salida.png';
-import iconOpen from '../images/cheque.png';
+import iconClose from '../images/cerrar-ventana.png';
+import iconOpen from '../images/menu.png';
  
 function CloseFullscreenSvg() {
   return (
@@ -52,7 +52,7 @@ export default function PersonCard(){
             style={{ position: "absolute", right: 0, zIndex: 9999, background : 'transparent', border:'none' }}
             onClick={() => setIsCardExpanded(!isCardExpanded)}
           >
-            <figure>
+            <figure >
               {isCardExpanded ? (
                 <CloseFullscreenSvg />
               ) : (
@@ -62,7 +62,7 @@ export default function PersonCard(){
           </button>
         </div>
         <div >
-          <img
+          <img onClick={() => setIsCardExpanded(!isCardExpanded)}
             style={{
               width: isCardExpanded ? "24rem" : "17.5rem",
               height: "auto",

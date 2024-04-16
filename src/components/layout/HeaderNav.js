@@ -14,7 +14,7 @@ export const HeaderNav = () => {
                 <li>
                     <NavLink className='nav_item' to='/inicio'>Inicio</NavLink>
                     <NavLink className='nav_item' to='/curriculum'>Curriculum</NavLink>
-                    <NavLink className='nav_item' to='/contacto'>Contacto</NavLink>
+                    <NavLink className='nav_item' to='/contacto'>Sobre Mi</NavLink>
                     <NavLink className='nav_item' to='/portafolio'>Portafolio</NavLink>
                     <NavLink className='nav_item' to='/servicios'>Servicios</NavLink>
                 </li>
