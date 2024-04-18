@@ -9,7 +9,7 @@ export const Inicio = () => {
     <div className='container'>
       <div className='inicio_container row'>
         <div className='intro_content-text col-9'>
-            <span className='subtitle_top col-12'>Welcome!!</span>
+            <span className='subtitle_top col-12'>Bienvenido!!</span>
             <h1 className='title_init col-12'>
               Frontend <span className='dev'>Dev</span>eloper
             </h1>

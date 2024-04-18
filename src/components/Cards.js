@@ -39,10 +39,10 @@ export const Cards = () => {
             <div className="card">
               <div className="front">
                 <header>
-                  <h2>{card.name}</h2>
+                  <h2 className='title_skill'>{card.name}</h2>
                   <span className="material-symbols-outlined"> more_vert </span>
                 </header>
-                <figure>
+                <figure className='container_logo-skill'>
                   <img src={card.imagen} alt={card.alt}/>
                 </figure>
                 <h3>{card.description}</h3>

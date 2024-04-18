@@ -8,20 +8,95 @@
         letter-spacing: 0.5rem;
         font-weight: lighter;
     }
+    .swiper{
+        z-index: 0;
+    }
+    .swiper-button-next,.swiper-button-prev{
+        color: var(--blue-turk);
+    }
     .card{
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        .card-title,a{
+        width: 400px;
+        aspect-ratio: 1 / 0.7;
+        border-radius: 8px;
+        position: relative;
+        cursor: pointer;
+        transition: 0.4s ease-in-out;
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border: 2px solid var(--blue-turk);
+            border-radius: inherit;
+            opacity: 0;
+            transition: 0.4s ease-in-out;
+            pointer-events: none;
+        }
+        &:hover::after {
+            opacity: 1;
+            inset: 20px;
+        }
+        .card-title{
             color: var(--white);
             text-decoration: none;
         }
-        .card-title{
-            margin: 0;
+        &:hover img {
+            filter: grayscale(1) brightness(0.4);
         }
-        .card-text{
-            color: var(--white);
-            margin-top: 20px;
+        &:hover .card-body{
+            opacity: 1;
+            .card-title{
+                scale: 1;
+            }
+            .card-text{
+                scale: 1;
+            }
         }
+        .card-img-top{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 90%;
+            border-radius: inherit;
+            transition: 0.5s ease-in-out;
+            &:hover{
+                filter: grayscale(1) brightness(0.4);
+                transition: 0.4s ease-in-out;
+            }
+        }
+        .card-body{
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            transition: 0.4s 0.2s ease;
+            opacity: 0;
+            .card-text{
+                color: var(--white);
+                margin-top: 20px;
+                font-size: 14px;
+                line-height: 1.5;
+                scale: 0.7;
+                transition: 0.4s 0.2s ease;
+            }
+            .learn_more-proyct, a{
+                color: var(--blue-turk);
+                text-decoration: none;
+                &:hover{
+                    color: var(--white);
+                    scale: 1;
+                }
+            }
+            .card-title{
+                font-size: 2rem;
+                margin-bottom: 12px;
+                scale: 0.7;
+                transition: 0.4s 0.2s ease;
+            }
+        }
+        
     }
 }
+
+

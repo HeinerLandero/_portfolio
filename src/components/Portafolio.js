@@ -15,9 +15,9 @@ export const Portafolio = ({limite}) => {
               centeredSlides={true}
               cssMode={true}
               navigation={true}
-              mousewheel={true}
+              mousewheel={false}
               keyboard={true}
-              loop={true}
+              loop={false}
               modules={[Navigation,  Mousewheel, Keyboard]} >
       {
         proyectos.map( proyecto => (
