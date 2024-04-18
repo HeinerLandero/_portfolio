@@ -1,33 +1,5 @@
 import React from 'react';
 import { skills } from '../data/skills';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-
-// const cardsm = [
-//   {
-//     name: "summary",
-//     total: 21,
-//     description: "Due Tasks",
-//     footer: "Completed: 13",
-//     more: "More Information",
-//   },
-//   {
-//     name: "overdue",
-//     total: 17,
-//     description: "Projects",
-//     footer: "Yesterday: 9",
-//     more: "More Information",
-//   },
-//   {
-//     name: "features",
-//     total: 38,
-//     description: "Proposals",
-//     footer: "Implemented: 6",
-//     more: "More Information",
-//   },
-// ];
 
 export const Cards = () => {
   return (
@@ -40,7 +12,7 @@ export const Cards = () => {
               <div className="front">
                 <header>
                   <h2 className='title_skill'>{card.name}</h2>
-                  <span className="material-symbols-outlined"> more_vert </span>
+                  <span className="material-symbols-outlined open"></span>
                 </header>
                 <figure className='container_logo-skill'>
                   <img src={card.imagen} alt={card.alt}/>
@@ -51,9 +23,14 @@ export const Cards = () => {
               <div className="back">
                 <header>
                   <h2>{card.name}</h2>
-                  <span className="material-symbols-outlined"> close </span>
+                  <span className="material-symbols-outlined close"></span>
                 </header>
-                <p>More Information</p>
+                <ul className='list_url-skills'>
+                  {card.proyects_relations.map((url)=>{
+                    return <li className='item_url_skill' alt={url}>
+                      <a target='_blank' href={`https://github.com/HeinerLandero/${url}`}>{url}</a></li>
+                  })}
+                </ul>
               </div>
             </div>
           </label>

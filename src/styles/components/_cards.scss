@@ -30,11 +30,39 @@
             transition: 0.6s;
             cursor: pointer;
           }
+          .back{
+            .close{
+              background-image: url('../../images/open_folder.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 28px;
+                height: 28px;
+            }
+            .list_url-skills{
+              padding: 0;
+              .item_url_skill{
+                a{
+                  color: var(--blue-turk);
+                  text-decoration: none;
+                }
+              }
+            }
+          }
           .front{
+            .open{
+              background-image: url('../../images/close_folder.png');
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              width: 28px;
+              height: 28px;
+            }
             .title_skill{
               color: var(--white);
             }
             .container_logo-skill{
+              width: 50%;
               img{
                 width: 60px;
                 height: 60px;

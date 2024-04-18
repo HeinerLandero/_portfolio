@@ -83,9 +83,12 @@
             .learn_more-proyct, a{
                 color: var(--blue-turk);
                 text-decoration: none;
+                transition: 0.4s 0.2s ease;
                 &:hover{
                     color: var(--white);
                     scale: 1;
+                    font-size: 18px;
+                    transition: 0.4s 0.2s ease;
                 }
             }
             .card-title{
