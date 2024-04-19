@@ -7,4 +7,7 @@
     img{
         mask-image: radial-gradient(circle, black 67%, rgba(0, 0, -18, -0.5) 69%)
     }
+    .icon-button{
+        animation: wiggle 2s linear infinite;
+    }
 }

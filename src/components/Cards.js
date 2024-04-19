@@ -17,8 +17,8 @@ export const Cards = () => {
                 <figure className='container_logo-skill'>
                   <img src={card.imagen} alt={card.alt}/>
                 </figure>
-                <h3>{card.description}</h3>
-                <h4>{card.footer}</h4>
+                <label for="disk_c">{`${(card.main) * 100}%`}</label>
+                <meter id="disk_c" value={card.main} min="0" max="1"></meter>
               </div>
               <div className="back">
                 <header>

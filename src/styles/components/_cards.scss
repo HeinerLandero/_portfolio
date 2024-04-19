@@ -1,15 +1,12 @@
 .page.card-1-page {
     margin: 0;
-    height: 100vh;
     display: grid;
     place-items: center;
     .cards {
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
-      justify-content: space-between;
       .content_card{
-        min-width: 30%;
         display: flex;
         gap: 10px;
         .card {
@@ -50,6 +47,22 @@
             }
           }
           .front{
+            label{
+              color: var(--white);
+              margin-right: 10px;
+            }
+            meter{
+              width: 70%;
+              &::-webkit-meter-bar {
+                background-color:var(--white);
+              }
+              
+              &::-webkit-meter-optimum-value {
+                background-color: var(--blue-turk);
+              }
+            }
+            
+          
             .open{
               background-image: url('../../images/close_folder.png');
               background-position: center;
@@ -66,6 +79,7 @@
               img{
                 width: 60px;
                 height: 60px;
+                filter: grayscale(1) brightness(0.4);;
               }
             }
           }
