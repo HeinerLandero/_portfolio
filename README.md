@@ -15,7 +15,7 @@ Setup:
 ```
 2. Install project dependencies using npm:
   ```bash
-   cd your_repository
+   cd _portfolio.git
    npm install
   ```
 
