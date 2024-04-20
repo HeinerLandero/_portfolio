@@ -14,13 +14,13 @@ export const Proyecto = () => {
   },[params.id]);
 
   return (
-      <div className='proyect_container container mt-4'>
+      <div className='proyect_container container'>
         <div className='content_proyect'>
-            <h1 className='title_page-proyect col-6'>{proyect.name}</h1>
             <div className='container'>
                 <div className='row'>
                   <div className='col-6'>
-                    <p>
+                    <h1 className='title_page-proyect '>{proyect.name}</h1>
+                    <p className='text_proyect'>
                       {proyect.content}
                     </p> 
                   </div>

@@ -6,7 +6,7 @@ export const proyectos = [
         'imagen':'https://i.ibb.co/WvdksKn/img1.jpg',
         'tecnologias':['HTML', 'React', 'Javascript'],
         'categoria':'website',
-        'content':'Clon de la página de Suzuki CR (Costa Rica) para la puesta en practica de las habilidades aprendidas'
+        'content':'Clon de la página de Suzuki CR (Costa Rica) para la puesta en practica de las habilidades que he ido desarrollando y aprendediendo.'
 
     },
     {
@@ -16,7 +16,7 @@ export const proyectos = [
         'imagen':'https://i.ibb.co/KW9mC8b/img2.jpg',
         'tecnologias':['HTML','Wordpress'],
         'categoria':'website',
-        'content':'Página web para cliente en los Estados Unidos relacionado con servicios de metalmecánica'
+        'content':'Página web para cliente en los Estados Unidos relacionado con servicios de metalmecánica, para el desarrollo de este proyecto, se hizo uso de tecnologias como Wordpress, CSS y PHP.'
     },
     {
         'id':'proyect03',

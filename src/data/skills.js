@@ -88,6 +88,36 @@ export const skills = [
         'categoria':'website',
         'content':'Libreria de archivos desarrollada con el fin de almacenar documentación personal',
         'proyects_relations':['personal-website','_library','LandingPageTaxisLibres','']
+    },
+    {
+        'id':'skills10',
+        'alt':'img skills',
+        'name':'Wordpress',
+        'main': 0.7 ,
+        'imagen':'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg',
+        'categoria':'website',
+        'content':'Página web para cliente en los Estados Unidos relacionado con servicios de metalmecánical',
+        'proyects_relations':['personal-website','_library','LandingPageTaxisLibres']
+    },
+    {
+        'id':'skills11',
+        'alt':'img skills',
+        'name':'JQuery',
+        'main': 0.7,
+        'imagen':'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg',
+        'categoria':'website',
+        'content':'Página web para cliente en los Estados Unidos relacionado con servicios de metalmecánical',
+        'proyects_relations':['personal-website','_library','LandingPageTaxisLibres']
+    },
+    {
+        'id':'skills12',
+        'alt':'img skills',
+        'name':'PHP',
+        'main': 0.8 ,
+        'imagen':'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
+        'categoria':'website',
+        'content':'Página web para cliente en los Estados Unidos relacionado con servicios de metalmecánical',
+        'proyects_relations':['personal-website','_library','LandingPageTaxisLibres','']
     }
 ];
 

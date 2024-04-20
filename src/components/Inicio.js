@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Contacto } from './Contacto';
 import  PersonCard  from './PersonCard';
 import { Portafolio } from './Portafolio';
+import { ExperienciaProfesional } from './ExperienciaProfesional';
 
 export const Inicio = () => {
   return (
@@ -26,6 +27,7 @@ export const Inicio = () => {
       </div>
       <Portafolio/>
       <Contacto />
+      <ExperienciaProfesional/>
     </div>
   )
 }

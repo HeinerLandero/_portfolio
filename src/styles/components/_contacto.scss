@@ -13,15 +13,16 @@
         flex-direction: column;
         align-self: flex-start;
         .title{
-            align-self: flex-start;
-            color: var(--white);
-            font-family: var(--primary-font);
-            text-transform: capitalize;
-            font-size: 5.0rem;
-            font-weight: 600;
+            color: var(--blue-turk);
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5rem;
+            font-weight: lighter;
+            margin-bottom: 30px;
         }
         p{
             color: var(--white);
+            margin-bottom: 30px;
         }
     }
     .about-me{
