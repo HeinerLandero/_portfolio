@@ -10,4 +10,8 @@
     .icon-button{
         animation: wiggle 2s linear infinite;
     }
+    button{
+        display: flex;
+        justify-content: flex-end;
+    }
 }

@@ -2,7 +2,7 @@
   "name": "work-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://heinerlandero.github.io/_portfolio",
+  "homepage": "https://heinerlandero.github.io/_portfolio/build",
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.63",

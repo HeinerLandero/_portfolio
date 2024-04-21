@@ -28,7 +28,7 @@ export const Cards = () => {
                 <ul className='list_url-skills'>
                   {card.proyects_relations.map((url)=>{
                     return <li className='item_url_skill' alt={url}>
-                      <a target='_blank' href={`https://github.com/HeinerLandero/${url}`}>{url}</a></li>
+                      <a target='_blank' rel="noopener noreferrer" href={`https://github.com/HeinerLandero/${url}`}>{url}</a></li>
                   })}
                 </ul>
               </div>
