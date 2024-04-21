@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Contacto } from './Contacto';
+import { Skills } from './Skills';
 import  PersonCard  from './PersonCard';
 import { Portafolio } from './Portafolio';
 import { ExperienciaProfesional } from './ExperienciaProfesional';
+import { FormContact } from './FormContact';
 
 export const Inicio = () => {
   return (
@@ -16,7 +17,7 @@ export const Inicio = () => {
             </h1>
             <p className='col-12'>Conoce un poco de mí, de mi trabajo, habilidades y proyectos personales.</p>
             <div className='short_description'>
-              Para saber mas de mi experiencia como desarrollador <Link type='button' to="/Contacto" className='contact_me'>contactame !</Link>
+              Para saber mas de mi experiencia como desarrollador <Link type='button' to="/" className='contact_me'>contactame !</Link>
             </div>
         </div>
         <div className='person_card'>
@@ -26,8 +27,10 @@ export const Inicio = () => {
         </div>
       </div>
       <Portafolio/>
-      <Contacto />
       <ExperienciaProfesional/>
+      <FormContact/>
+      <Skills />
+
     </div>
   )
 }

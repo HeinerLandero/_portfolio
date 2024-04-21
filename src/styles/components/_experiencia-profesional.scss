@@ -1,6 +1,6 @@
 .container_experience{
     box-shadow: 20px 20px 60px black, -20px -20px 60px var(--blue-glacial);
-    padding: 24px;
+    padding: 34px;
     border-radius: 50px;
     background: var(--blue-glacial);
     margin-top: 60px;
@@ -22,27 +22,33 @@
     .experience_content-text{
         justify-content: space-around;
         margin: 60px auto;
-        .line_progress{
-            content: " ";
-            width: 2px;
-            background-color: var(--blue-turk);
-            display: block;
-            border-radius: 5px;
-        }
         .container_article{
             width: 80%;
                 .experience{
                     max-width: 800px;
-                    margin-bottom: 30px;
-                        .company{
-                            color: var(--white);
-                        }
-                        .date_long{
-                            color: var(--blue-turk);
-                        }
-                        .charge,.funtions{
-                            color: var(--white);
-                        }
+                    border-left: 2px solid var(--blue-turk);
+                    padding-left: 10%;
+                    padding-bottom: 30px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        width: 8%;
+                        height: 2px;
+                        background-color: var(--blue-turk);
+                        position: absolute;
+                        left: 0;
+                        top: 22px;
+                    }
+                    .company{
+                        color: var(--white);
+                    }
+                    .date_long{
+                        color: var(--blue-turk);
+                        margin: 0;
+                    }
+                    .charge,.funtions{
+                        color: var(--white);
+                    }
                 }
         }
     }

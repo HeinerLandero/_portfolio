@@ -13,7 +13,7 @@ export const ExperienciaProfesional = () => {
             </p>
         </div>
         <div className='experience_content-text d-flex'>
-            <span className='line_progress col-3'></span>
+            {/* <span className='line_progress col-3'></span> */}
             <div className='container_article'>{experiences.map((experience)=>(
                 <article className='experience'>
                     <h3 className='company '>{experience.company}</h3>

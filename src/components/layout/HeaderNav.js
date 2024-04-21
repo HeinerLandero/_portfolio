@@ -8,15 +8,13 @@ export const HeaderNav = () => {
         {/* <figure className='logo-container'>
           <img className='logo' src={logoB} alt='logo website'/>
         </figure> */}
-        <span className='logo_letter'>&lt;H<span className='slash'>/</span>&gt;</span>
+        <span  className='logo_letter'>&lt;H<span className='slash'>/</span>&gt;</span>
         <nav>
             <ul>
                 <li>
                     <NavLink className='nav_item' to='/inicio'>Inicio</NavLink>
-                    <NavLink className='nav_item' to='/curriculum'>Curriculum</NavLink>
                     <NavLink className='nav_item' to='/contacto'>Sobre Mi</NavLink>
                     <NavLink className='nav_item' to='/portafolio'>Portafolio</NavLink>
-                    <NavLink className='nav_item' to='/servicios'>Servicios</NavLink>
                 </li>
             </ul>
         </nav>

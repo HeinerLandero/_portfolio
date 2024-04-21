@@ -1,9 +1,7 @@
 import React from 'react';
 import { Cards } from './Cards';
-// import PersonCard from './PersonCard';
 
-
-export const Contacto = () => {
+export const Skills = () => {
   return (
     <div className='container_main container flex-column d-flex align-items-center about-me'>
       <div className='container d-flex'> 
