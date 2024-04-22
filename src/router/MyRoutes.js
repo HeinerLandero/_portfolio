@@ -18,6 +18,7 @@ export const MyRoutes = () => {
                 <Route path='/Inicio' element={<Inicio/>}/>
                 <Route path='/Portafolio' element={<Portafolio/>}/>
                 <Route path='/Portafolio/:id' element={<Proyecto/>}/>
+                <Route path='/build' element={<Inicio/>}/>
                 <Route path='*' element={
                   <div>
                       <h1>ERROR 404</h1>
