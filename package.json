@@ -1,8 +1,8 @@
 {
+  "homepage": "http://heinerlandero.github.io/_portfolio/",
   "name": "work-porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://heinerlandero.github.io/_portfolio/inicio",
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.63",
@@ -22,11 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
