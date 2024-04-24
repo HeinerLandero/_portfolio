@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route, BrowserRouter, Navigate} from 'react-router-dom';
+import {Routes, Route, BrowserRouter, Navigate, Link} from 'react-router-dom';
 import {Inicio} from '../components/Inicio';
 import { Portafolio } from '../components/Portafolio';
 import { HeaderNav } from '../components/layout/HeaderNav';
@@ -15,15 +15,16 @@ export const MyRoutes = () => {
          <section className='content'>
             <Routes>
                 <Route path='/' element={< Navigate to ="/inicio"/>}/>
-                <Route path='/Inicio' element={<Inicio/>}/>
-                <Route path='/Portafolio' element={<Portafolio/>}/>
-                <Route path='/Portafolio/:id' element={<Proyecto/>}/>
-                <Route path='/build' element={<Inicio/>}/>
+                <Route path='/inicio' element={<Inicio/>}/>
+                <Route path='/portafolio' element={<Portafolio/>}/>
+                <Route path='/portafolio/:id' element={<Proyecto/>}/>
                 <Route path='*' element={
                   <div>
                       <h1>ERROR 404</h1>
                       <p>page no found</p>
+                     <Link type='button' to="/" className='contact_me'>inicio</Link>
                   </div>
+
                 }/>
 
             </Routes>
