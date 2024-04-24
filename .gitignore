@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/README.md
 .pnp.js
 
 # testing
@@ -12,7 +13,6 @@
 # /build
 
 
-README.md
 
 # misc
 .DS_Store
