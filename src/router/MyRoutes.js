@@ -14,7 +14,7 @@ export const MyRoutes = () => {
          {/*Contenido*/}
          <section className='content'>
             <Routes>
-                <Route path='/' element={< Navigate to ="/inicio"/>}/>
+                <Route path='' element={< Navigate to ="/inicio"/>}/>
                 <Route path='/Inicio' element={<Inicio/>}/>
                 <Route path='/Portafolio' element={<Portafolio/>}/>
                 <Route path='/Portafolio/:id' element={<Proyecto/>}/>
